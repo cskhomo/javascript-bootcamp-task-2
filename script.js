@@ -12,4 +12,12 @@ form.addEventListener("submit", function(e) {
     
     let result = mark >= 50 ? "PASS" : "FAIL"
     let grade = "";
+
+    if (mark >= 80) grade = "Distinction";
+    else if (mark >= 65) grade = "Merit";
+    else if (mark >= 50) grade = "Pass";
+    else grade = "Fail";
+
+    let student = {name, mark, result, grade};
+    students.push(student);
 }
