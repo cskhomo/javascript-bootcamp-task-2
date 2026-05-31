@@ -1,20 +1,25 @@
 body {
     background-color: whitesmoke;
     font-size: 20px;
+    width: 250px;
 }
 
-form {
+form, label {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 8px;
 }
 
 input, button {
-  padding: 12px;
-  border-radius: 6px;
-  border: 1px solid black;
+    padding: 12px;
+    border-radius: 6px;
 }
 
 button {
     background-color: darkgrey;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: grey;
 }
