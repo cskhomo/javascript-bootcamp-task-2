@@ -23,3 +23,15 @@ button {
 button:hover {
     background-color: grey;
 }
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 100%;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid lightgrey;
+}
