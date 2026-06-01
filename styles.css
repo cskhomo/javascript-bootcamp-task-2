@@ -1,7 +1,7 @@
 body {
     background-color: whitesmoke;
-    font-size: 20px;
-    width: 250px;
+    font-size: 16px;
+    width: 300px;
 }
 
 form, label {
@@ -10,8 +10,9 @@ form, label {
     gap: 8px;
 }
 
-input, button {
+input, button, div {
     padding: 12px;
+    margin: 6px;
     border-radius: 6px;
 }
 
@@ -24,14 +25,6 @@ button:hover {
     background-color: grey;
 }
 
-table {
-    border-collapse: collapse;
-    margin-top: 20px;
-    width: 100%;
-}
-
-th, td {
-    padding: 12px;
-    text-align: left;
-    border-bottom: 1px solid lightgrey;
+div {
+    background-color: lightgrey;
 }
