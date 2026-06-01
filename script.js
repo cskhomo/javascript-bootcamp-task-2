@@ -28,10 +28,11 @@ function submit(e) {
 }
 
 function get_grade(mark) {
-    if (mark >= 80) return "Distinction";
-    if (mark >= 65) return "Merit";
-    if (mark >= 50) return "Pass";
-    return "Fail";
+    let grade = "fail"
+    if (mark >= 80) grade = "Distinction";
+    else if (mark >= 65) grade = "Merit";
+    else if (mark >= 50) grade = "Pass";
+    return grade;
 }
 
 function create_student(name, mark, result, grade) {
